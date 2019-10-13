@@ -63,7 +63,7 @@ class UsersGridCustomized extends Grid implements UsersGridInterface
             "is_admin" => [
                 "label" => "Admin",
                 "presenter" => function ($columnData, $columnName) {
-                    return Arr::random($this->defaultBooleanData, 1)[0];
+                    return \Illuminate\Support\Arr::random($this->defaultBooleanData, 1)[0];
                 },
                 "filter" => [
                     'enabled' => true,

@@ -51,6 +51,6 @@ class UserActionRequested
         $this->request = $request;
         $this->builder = $builder;
         $this->validTableColumns = $validTableColumns;
-        $this->args = array_collapse($args);
+        $this->args = \Illuminate\Support\Arr::collapse($args);
     }
 }

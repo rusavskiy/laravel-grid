@@ -352,7 +352,7 @@ class GenericButton implements Htmlable
 
         // collapse the array of args into a single 1d array, so that the values passed can be
         // accessed as key value pair
-        $args = array_collapse($args);
+        $args = \Illuminate\Support\Arr::collapse($args);
 
         return view($this->getButtonView(), $this->compactData($args))->render();
     }

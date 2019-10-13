@@ -251,7 +251,7 @@ trait RendersButtons
             return false;
         }
         // no buttons on section
-        return count(array_get($this->buttons, $section, [])) === 0 ? false : true;
+        return count(\Illuminate\Support\Arr::get($this->buttons, $section, [])) === 0 ? false : true;
     }
 
     /**
