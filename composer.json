@@ -22,7 +22,13 @@
     }
   ],
   "require": {
-
+    "illuminate/view": "^6.0",	
+    "illuminate/support": "^6.0",	
+    "illuminate/console": "^6.0",	
+    "illuminate/contracts": "^6.0",	
+    "illuminate/http": "^6.0",	
+    "illuminate/database": "^6.0",	
+    "illuminate/pagination": "^6.0"
   },
   "suggest": {
     "maatwebsite/excel": "For exporting grid data as excel (~3.0)",
@@ -53,9 +59,6 @@
       "aliases": {
         "Modal": "Leantony\\Grid\\Facades\\Modal"
       }
-    },
-    "branch-alias": {
-      "dev-master": "2.0.x-dev"
     }
   },
   "minimum-stability": "dev",
