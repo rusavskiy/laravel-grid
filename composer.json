@@ -1,5 +1,5 @@
 {
-  "name": "leantony/laravel-grid",
+  "name": "rusavskiy/laravel-grid",
   "description": "A grid view for laravel, inspired by the yii2 grid widget",
   "license": "MIT",
   "type": "library",
