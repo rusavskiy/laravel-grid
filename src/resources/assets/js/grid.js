@@ -45,7 +45,7 @@ const _grids = _grids || {};
           e.preventDefault();
           if (confirmation) {
             if (!confirm(confirmationMessage)) {
-              return;
+              return false;
             }
           }
           $.ajax({
