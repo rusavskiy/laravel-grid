@@ -13,7 +13,7 @@ class UsersGrid extends Grid implements UsersGridInterface
      *
      * @var string
      */
-    protected $name = 'Users';
+    protected string $name = 'Users';
 
     /**
      * List of buttons to be generated on the grid
